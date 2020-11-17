@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Utair</string>
+    <string name="title_activity_main">Utair</string>
+    <string name="package_name">ru.utair.mobile</string>
+    <string name="custom_url_scheme">ru.utair.mobile</string>
+</resources>

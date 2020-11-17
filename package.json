@@ -5,9 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "android": "next build && next export && rm -rf www && mv out www && npx cap sync && npx cap open android"
   },
   "dependencies": {
+    "@capacitor/android": "2.4.2",
+    "@capacitor/cli": "^2.4.2",
+    "@capacitor/core": "^2.4.2",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"
