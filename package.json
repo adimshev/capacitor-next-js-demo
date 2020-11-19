@@ -7,20 +7,15 @@
     "build": "next build",
     "start": "next start",
     "android": "next build && next export && npx cap sync && npx cap open android",
-    "ios": "next build && next export && npx cap sync && npx cap open ios",
-    "postinstall": "patch-package"
+    "ios": "next build && next export && npx cap sync && npx cap open ios"
   },
   "dependencies": {
-    "next": "10.0.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  },
-  "devDependencies": {
-    "patch-package": "^6.2.2",
-    "postinstall-postinstall": "^2.1.0",
     "@capacitor/android": "2.4.2",
     "@capacitor/cli": "^2.4.2",
     "@capacitor/core": "^2.4.2",
-    "@capacitor/ios": "2.4.2"
+    "@capacitor/ios": "2.4.2",
+    "next": "^10.0.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   }
 }
