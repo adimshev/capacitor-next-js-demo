@@ -2,9 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 const routes = [
 	[ 'First', '/' ],
-	[ 'Second', 'second' ],
-	[ 'Third', 'third' ],
-	[ 'Fourth', 'fourth' ]
+	[ 'Second', '/second' ],
+	[ 'Third', '/third' ],
+	[ 'Fourth', '/fourth' ]
 ];
 
 export default function Navigation ()
